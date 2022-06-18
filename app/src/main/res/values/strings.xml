@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PR12_KARGIN</string>
+    <string name="desc_logo">Логотип-кнопка нажми на него</string>
+    <string name="forgot">forgot password ?</string>
+    <string name="btn_sign">sign in</string>
+    <string name="btn_reg">sign up</string>
+    <string name="ex_name_user">ivanov I.</string>
+    <string name="ex_name">Ivanov Ivan</string>
+    <string name="ex_city">Rostov</string>
+    <string name="mb_facebook">sign in with Facebook</string>
+    <string name="ex_password">••••••</string>
+    <string name="ex_mail">ivanov@gmail.com</string>
+    <string name="ex_Email">E-mail: ivanov@gmail.com</string>
+    <string name="cr_acc">Create A New Account?</string>
+    <string name="menuItem1">History</string>
+    <string name="menuItem2">Settings</string>
+    <string name="Exit">Exit</string>
+    <string name="CAR">KIA</string>
+
+</resources>
