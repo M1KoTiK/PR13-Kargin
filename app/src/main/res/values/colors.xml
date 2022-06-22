@@ -14,4 +14,7 @@
     <color name="amazing_bg">#282C40</color>
     <color name="amazing_btn">#4254BC</color>
     <color name="amazing_text">#6879DD</color>
+    <color name="amazing">#2A2E43</color>
+    <color name="btn_yellow">#FFB900</color>
+    <color name="amazing_blue_gray">#454f63</color>
 </resources>
