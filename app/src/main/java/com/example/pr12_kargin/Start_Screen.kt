@@ -16,5 +16,10 @@ class Start_Screen : AppCompatActivity() {
             val openMenus = Intent(this, Menus::class.java)
             startActivity(openMenus)
         }
+        val btnCar = findViewById<ImageView>(R.id.btn_car)
+        btnCar.setOnClickListener{
+            val openBook = Intent(this, Book::class.java)
+            startActivity(openBook)
+        }
     }
 }
