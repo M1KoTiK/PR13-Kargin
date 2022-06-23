@@ -15,7 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/LIN"
         app:srcCompat="@drawable/i" />
 
     <ImageView
@@ -24,13 +24,13 @@
         android:layout_height="175dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/LIN"
         app:srcCompat="@drawable/bg" />
 
     <LinearLayout
-        android:id="@+id/linearLayout9"
+        android:id="@+id/LIN"
         android:layout_width="0dp"
         android:layout_height="150dp"
         android:background="@color/amazing_bg"
@@ -39,6 +39,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:textSize="26sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:text="Wait Timer" />
     </LinearLayout>
 
     <TextView
@@ -55,7 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_stop"
         android:layout_width="380dp"
         android:layout_height="75dp"
         android:layout_marginTop="40dp"
@@ -67,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_cancel"
         android:layout_width="380dp"
         android:layout_height="75dp"
         android:layout_marginTop="15dp"
@@ -79,6 +89,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_stop" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

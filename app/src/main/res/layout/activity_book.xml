@@ -288,7 +288,7 @@
                 </LinearLayout>
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/btn_book"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:layout_marginLeft="25dp"
